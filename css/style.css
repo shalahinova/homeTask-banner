@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'exoregular';
+    src: url('../fonts/exoregular.eot');
+    src: url('../fonts/exoregular.eot') format('embedded-opentype'),
+    url('../fonts/exoregular.woff2') format('woff2'),
+    url('../fonts/exoregular.woff') format('woff'),
+    url('../fonts/exoregular.ttf') format('truetype'),
+    url('../fonts/exoregular.svg#exoregular') format('svg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 30px;
+}
+
+.containerSearch {
+    height: 90px;
+    background-color: #e5e7e6;
+}
+
+.containerMenu {
+    background-color: #141414;
+    padding: 14px 0;
+}
+
+.containerBanner {
+    background-color: #d8232a;
+}
+
+.menu, .banner {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menu {
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'exoregular';
+}
+
+ul li {
+    display: inline;
+    text-transform: uppercase;
+    margin: 14px;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 100%;
+    border: none;
+}
+
+.banner {
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    background-color: rgba(208, 0, 47, 0.7);
+    padding: 60px 25px;
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 45px;
+    color: white;
+    font-family: 'exoregular';
+}
+
+p {
+    margin-bottom: 50px;
+    font-size: 15px;
+    color: white;
+    font-family: 'exoregular';
+}
+
+.button {
+    width: 145px;
+    /*background-color: #7c8287;*/
+    background: linear-gradient(to top, #515960, white);
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    line-height: 30px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    font-family: 'exoregular';
+}
