@@ -61,8 +61,8 @@ a {
 }
 
 img {
-    width: 100%;
     border: none;
+    width: 100%;
 }
 
 .banner {
@@ -105,4 +105,42 @@ p {
     text-transform: uppercase;
     border-radius: 15px;
     font-family: 'exoregular';
+}
+
+.dropdawn {
+    position: relative;
+}
+
+.dropdawn:hover ul {
+    display: block;
+}
+
+.dropdawn ul {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: black;
+    padding: 7px;
+    z-index: 3;
+    display: block;
+    min-width: 150px;
+    display: none;
+}
+
+.dropdawn ul li {
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 5px;
+    display: block;
+    line-height: 35px;
+    text-align: left;
+    background-color: #141414;
+    border-bottom: solid 1px red;
+    padding-left: 15px;
+
+}
+
+.dropdawn ul li a {
+    display: block;
 }
