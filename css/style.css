@@ -94,7 +94,6 @@ p {
 
 .button {
     width: 145px;
-    /*background-color: #7c8287;*/
     background: linear-gradient(to top, #515960, white);
     color: white;
     font-size: 18px;
@@ -107,15 +106,15 @@ p {
     font-family: 'exoregular';
 }
 
-.dropdawn {
+.dropdown {
     position: relative;
 }
 
-.dropdawn:hover ul {
+.dropdown:hover ul {
     display: block;
 }
 
-.dropdawn ul {
+.dropdown ul {
     position: absolute;
     top: 30px;
     left: 0;
@@ -127,7 +126,7 @@ p {
     display: none;
 }
 
-.dropdawn ul li {
+.dropdown ul li {
     margin-top: 0;
     margin-right: 0;
     margin-left: 0;
@@ -136,11 +135,11 @@ p {
     line-height: 35px;
     text-align: left;
     background-color: #141414;
-    border-bottom: solid 1px red;
+    border-bottom: solid 1px grey;
     padding-left: 15px;
 
 }
 
-.dropdawn ul li a {
+.dropdown ul li a {
     display: block;
 }
