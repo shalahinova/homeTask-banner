@@ -14,3 +14,5 @@
 
 
 ### 3) Clipboard
+
+![2018-04-26_1734_001](https://user-images.githubusercontent.com/37981601/39312460-4b444b24-4978-11e8-839d-fc898ad99072.png)
