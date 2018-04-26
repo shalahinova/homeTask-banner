@@ -5,8 +5,10 @@
     <title>homeTask-banner</title>
 
     <!--Styles-->
+    <link rel="stylesheet" href="css/component.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
+    
 
     <!--OwlCarousel-->
     <link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.css">
@@ -21,30 +23,32 @@
 
 <div class="containerMenu">
     <div class="menu">
-        <ul>
-            <li class="dropdown">
-                <a href="#">tv mounts</a>
+        <nav class="menu menu--prospero">
+        <ul class="menu__list">
+            <li class="dropdown menu__item menu__item--current">
+                <a class="menu__link" href="#">tv mounts</a>
                 <ul>
                     <li><a href="#">tv mounts</a></li>
                     <li><a href="#">tv mounts</a></li>
                     <li><a href="#">tv mounts</a></li>
                 </ul>
             </li>
-            <li><a href="#">desktop mounts</a></li>
-            <li><a href="#">av furniture</a></li>
-            <li><a href="#">av racks</a></li>
-            <li><a href="#">news</a></li>
-            <li><a href="#">downloads</a></li>
-            <li><a href="#">support</a></li>
-            <li><a href="#">contact</a></li>
-            <li><a href="#">resellers</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">desktop mounts</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">av furniture</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">av racks</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">news</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">downloads</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">support</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">contact</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">resellers</a></li>
         </ul>
+            </nav>
     </div>
 </div>
 
 <div class="containerBanner">
 
-    <div id = "sliderContaier" class="owl-carousel">
+    <div id = "sliderContaier" class="owl-carousel owl-theme">
         <!--1Slider-->
         <div class="banner">
             <img src="images/baner.png" alt="banner">
@@ -93,8 +97,14 @@
 
 <!--jQuery-->
 <script src="libs/jquery/jquery-2.2.1.min.js"></script>
+
 <!--OwlCarousel-->
 <script src="libs/owlcarousel/owl.carousel.min.js"></script>
+
+<!--Clipboard-->
+<script src="js/classie.js"></script>
+<script src="js/clipboard.min.js"></script>
+
 <!--JS-->
 <script src="js/main.js"></script>
 
